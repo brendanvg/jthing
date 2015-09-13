@@ -1,0 +1,270 @@
+#outerwrapper {
+
+}
+.innerwrapper {
+}
+
+body{
+	overflow:auto;
+}
+
+.nav1 {
+	background-color: black;
+	position:fixed;
+	text-align: center;
+	height:10%;
+	width:80%;
+	left:10%;
+	right:10%;
+	z-index:100;
+}
+
+.menutab{
+	color:white;
+	float:left;
+	text-align:center;
+	margin-left: 8%;
+}
+
+.titlepic{
+	width:100%;
+	position:relative;
+	z-index:-1;
+	-moz-animation-duration: 15s;
+    -webkit-animation-duration: 15s;
+    animation-duration: 15s;
+    -moz-animation-name: titleslide;
+    -webkit-animation-name: titleslide;
+    animation-name: titleslide;
+    -moz-animation-iteration-count: 2;
+    -webkit-animation-iteration-count: 2;
+    animation-iteration-count: 2;
+    -moz-animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+@-moz-keyframes titleslide {
+	from {
+	}
+	to{
+		transform:scale(2,2);
+	}
+}
+@-webkit-keyframes titleslide {
+  from {
+  }
+  
+  to {
+		transform:scale(2,2);
+ }
+}
+
+@keyframes titleslide {
+  from {
+  }
+  
+  to {
+		transform:scale(2,2);
+ }
+}
+
+#titlepic{
+	background-image:url('bread.jpg');
+	z-index: -1;
+}
+.jthing{
+	width:80%;
+	height:40%;
+	position:absolute;
+	top:10%;
+	left:10%;
+	right:10%;
+	text-align:center;
+	-skrollr-animation-name:title1;
+
+}
+.subtitle {
+	width:80%;
+	height:40%;
+	top:50%;
+	left:10%;
+	right:10%;
+	position:fixed;
+	background-color: black;
+	color:white;
+	-skrollr-animation-name:title1;
+
+
+}
+.jthing h1 {
+	font-size: 13em;
+	margin:auto;
+	text-shadow:5px 5px 3px black;
+	padding:auto;
+	color:white;
+}
+.subtitle h2{
+	font-size:8em;
+	margin:auto;
+	color:white;
+	text-align: center;
+
+}
+
+@-skrollr-keyframes title1 {
+	0 {
+	}
+	200 {
+		margin-top: 0%;
+	} 
+	300 {
+		margin-top:-100%;
+	}
+	
+
+}
+
+.doorrow1 {
+	height:340px;
+	width:230px;
+	float:left;
+	margin-top: 10%;
+
+}
+
+.doorrow2 {
+	height:340px;
+	width:230px;
+	float:left;
+	margin-top: -5%;
+	margin-right: 5%;
+
+}
+
+.hscontainer {
+	-skrollr-animation-name:animationFade;
+}
+
+@-skrollr-keyframes animationFade {
+	200 {
+		opacity:0;
+	}
+	300 {
+		opacity:1;
+	}
+}
+
+.hscontent {
+	font-size: 4em;
+	text-shadow:2px 2px 2px black;
+	color:white;
+	font-family:sans-serif;
+	text-align:center;
+}
+
+#door1{
+
+	background-image: url('rsz_door1.jpg');
+	-skrollr-animation-name:animation1;
+
+}
+
+
+@-skrollr-keyframes animation1 {
+	0p {
+		margin-left:100%;
+
+	}
+	50p {
+		margin-left:100%;
+	}
+
+	60p {
+		margin-left: 10%;
+	}
+	
+}
+
+
+
+#door2 {
+	background-image:url('door5.jpg');
+	-skrollr-animation-name:animation2;
+}
+
+@-skrollr-keyframes animation2 {
+	0{
+		margin-left:100%;
+	}
+	
+	250 {
+		margin-left: 100%;
+	}
+
+	350 {
+		margin-left:10%;
+	}
+	top {
+		color:rgb(0,0,0);
+	}
+
+	bottom {
+		color:rgb(255,0,0);
+	}
+}
+
+#door8 {
+	background-image:url('door8');
+	-skrollr-animation-name:animation2;
+}
+
+
+#door7{
+
+	background-image: url('door7.jpeg');
+	-skrollr-animation-name:animation4;
+}
+
+@-skrollr-keyframes animation4 {
+	0{
+		margin-left:100%;
+	}
+	
+	600 {
+		margin-left: 100%;
+	}
+
+	700 {
+		margin-left:5%;
+	}
+	top {
+		color:rgb(0,0,0);
+	}
+
+	bottom {
+		color:rgb(255,0,0);
+	}
+
+}
+
+
+
+#door10{
+
+	background-image: url('door10');
+	-skrollr-animation-name:animation4;
+
+}
+
+
+
+#door11{
+
+	background-image: url('rsz_door11.jpg');
+	-skrollr-animation-name:animation4;
+
+}
+
+
+
